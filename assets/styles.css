@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+}
+
+
+#map{
+	height: 90vh;
+	width: 100vw;
+	/*border: thin red solid;*/
+}
+
+.custom-popup img{
+	width: 100%;
+	display: block;
+}
+
+.custom-popup h1{
+	/*outline: thin red solid;*/
+	font-size: 1em;
+	color: #4A527D;
+}
+
+.leaflet-popup-content h4{
+	/*outline: thin red solid;*/
+	font-size: 1em;
+	color: #4A527D;
+}
+
+.leaflet-popup-content-wrapper{
+/*	width: 12em;*/
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-content, .leaflet-popup-tip{
+	background-color: #F0F8FF;
+}
